@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="progress-bar">
+    <div class="progress-fill" style="width: 12.5%;"></div>
+  </div>
+
+  <h2>You’re out with friends and something feels off. You:</h2>
+
+  <label class="choice">
+    <input type="radio" name="q1" onclick="goNext('q1','question2.html','Um Khammas')">
+    Say it immediately, I can’t ignore it
+  </label>
+
+  <label class="choice">
+    <input type="radio" name="q1" onclick="goNext('q1','question2.html','Um Saloom')">
+    Pretend it’s fine and go with the vibe
+  </label>
+
+  <label class="choice">
+    <input type="radio" name="q1" onclick="goNext('q1','question2.html','Um Saeed')">
+    Pause and think before reacting
+  </label>
+
+  <label class="choice">
+    <input type="radio" name="q1" onclick="goNext('q1','question2.html','Um Allawi')">
+    Try to understand what’s actually going on first
+  </label>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
